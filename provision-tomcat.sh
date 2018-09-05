@@ -6,9 +6,9 @@ apt-get upgrade -y
 apt-get install -y nano git openjdk-7-jdk openjdk-7-jre-headless
 
 cd /usr/local
-wget http://mirrors.m247.ro/apache/tomcat/tomcat-8/v8.5.32/bin/apache-tomcat-8.5.32.tar.gz
-tar -xzvf apache-tomcat-8.5.32.tar.gz
-ln -s apache-tomcat-8.5.32 tomcat
+wget http://mirrors.hostingromania.ro/apache.org/tomcat/tomcat-8/v8.5.33/bin/apache-tomcat-8.5.33.tar.gz
+tar -xzvf apache-tomcat-8.5.33.tar.gz
+ln -s apache-tomcat-8.5.33 tomcat
 
 cp /vagrant/tomcat8 /etc/init.d/tomcat8
 chmod 755 /etc/init.d/tomcat8
